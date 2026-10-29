@@ -30,7 +30,7 @@ html = bundle(True)
 open(os.path.join(docs, 'index.html'), 'w', encoding='utf-8').write(html)
 manifest = {
     'id': 'wloski-w-podrozy',
-    'name': 'Włoski w podróży', 'short_name': 'Włoski', 'lang': 'pl',
+    'name': 'Włoski', 'short_name': 'Włoski', 'lang': 'pl',
     'description': 'Włoski dla Polaków z naciskiem na podróż.',
     'start_url': './', 'scope': './', 'display': 'standalone', 'orientation': 'portrait',
     'background_color': '#f7f1e6', 'theme_color': '#f7f1e6',
